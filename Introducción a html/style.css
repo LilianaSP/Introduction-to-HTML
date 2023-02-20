@@ -1,0 +1,25 @@
+/* CSS style */
+
+h1 {
+    font-family: impact, sans-serif;
+    color: #CE5937;
+}
+
+h2{
+    font-family: impact, sans-serif;
+    color:purple;
+}
+
+
+h3{
+    font-size: 20px;
+    font-family: impact, sans-serif;
+    color: palevioletred;
+}
+
+
+
+ol {
+    font-family: impact, sans-serif;
+    color: black;
+}
