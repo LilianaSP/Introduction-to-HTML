@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+  --light-grey: #e0e2f4;
+  --grey: #aaaaaa;
+  --blue: #0414a7;
+  --base-font-size: 20px;
+  --font-stack: "VT323", monospace;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: var(--light-grey);
+}
+
+body {
+  background: var(--blue);
+  text-align: center;
+}
+
+h1 {
+    font: normal 2.75rem/1.05em var(--font-stack);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+video{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    display:block;
+}
+
+.image-container {
+  position: absolute;
+  z-index: 9999;
+}
+
+
+
